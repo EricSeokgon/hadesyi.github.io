@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 에서 Jekyll 설치"
 description: "Jekyll 설치 및 시작"
-date: 2015년 7월 11일 오전 4시 28분
+date: 2015-7-11
 category: blog
 tags: [blog, github, jekyll, windows]
 ---
