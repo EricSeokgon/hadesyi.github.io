@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 방명록 @ Kalkin's Blog
-description: Kalkin's Blog 방명록
+title: 방명록 @ Hadeslee's Blog
+description: Hadeslee's Blog 방명록
 permalink: /guestbook/
 ---
 

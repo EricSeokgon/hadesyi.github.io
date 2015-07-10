@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: 전체글목록 @ Kalkin's Blog
-description: Kalkin's Blog 전체글목록
+title: 전체글목록 @ Hadeslee's Blog
+description: Hadeslee's Blog 전체글목록
 permalink: /archive/
 ---
 

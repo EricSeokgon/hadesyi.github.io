@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 링크 모음 @ Kalkin's Blog
-description: Kalkin's Blog 링크 모음
+title: 링크 모음 @ Hadeslee's Blog
+description: Hadeslee's Blog 링크 모음
 permalink: /link/
 ---
 

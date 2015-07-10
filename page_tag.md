@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 태그별 글목록 @ Kalkin's Blog
-description: Kalkin's Blog 태그별 글목록
+title: 태그별 글목록 @ Hadeslee's Blog
+description: Hadeslee's Blog 태그별 글목록
 permalink: /tag/
 ---
 
