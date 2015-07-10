@@ -4,7 +4,7 @@ title: "Windows 에서 Jekyll 설치"
 description: "Jekyll 설치 및 시작"
 date: 2015-7-11
 category: blog
-tags: [blog, github, jekyll, windows]
+tags: [blog, github, jekyll]
 ---
 
 <!-- <div id="toc"><p class="toc_title">목차</p></div> -->
