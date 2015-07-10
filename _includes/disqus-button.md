@@ -8,7 +8,7 @@
 </div>
 <div id="disqus_thread"><form onsubmit="my.loadDisqus();return false;" class=formBlock><input class="disqusbut" type=submit value="댓글 보기"></form></div>
 <script>
-var disqus_shortname = "kalkingithub";
+var disqus_shortname = "hadesleesgithubblog";
 // provide the following in the template, if necessary
 // var disqus_url = "http://yourghostblogdomainname/";
 var disqus_identifier = '{{id}}';

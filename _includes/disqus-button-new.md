@@ -7,8 +7,8 @@
 <div id="disqus_thread"></div>
 <script>
 $(document).ready(function () {
-    var disqusPublicKey = "fOXhMULciQhdioBjLVw4VZgvKJOLRcVUYcwwPAmG2iXr7ynUByPHxKFWlux6tfjv";
-    var disqusShortname = "kalkingithub";
+    var disqusPublicKey = "4g0ollmegxyAFY9JgjiCscCs2H6kZGCJGGdaGkE3lGfOz28SaobfrVMLYoqGMHE0";
+    var disqusShortname = "hadesleesgithubblog";
     var threadUrl = 'link:' + $('.show-comments').attr('data-disqus-url');
 
     $.ajax({
