@@ -9,7 +9,7 @@ tags: [blog, github, jekyll]
 
 <!-- <div id="toc"><p class="toc_title">목차</p></div> -->
 
-## Windows 에서 Jekyll
+## Windows 에서 Jekyll을 사용하는 방법
 - Windows 가 공식적으로 지원되는 플랫폼은 아니지만, 몇 가지만 손보면 Jekyll 을 실행할 수 있습니다. 이 페이지의 목적은 Windows 사용자에 의해서 발굴된 정보들을 수집하는 것입니다.
 
 # 설치
