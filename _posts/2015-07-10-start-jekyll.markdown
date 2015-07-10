@@ -2,12 +2,13 @@
 layout: post
 title: "Windows 에서 Jekyll 설치"
 description: "Jekyll 설치 및 시작"
+date: 2015년 7월 11일 오전 4시 28분
 category: blog
 tags: [blog, github, jekyll, windows]
 ---
 
 <!-- <div id="toc"><p class="toc_title">목차</p></div> -->
-2015년 7월 11일 오전 4시 28분
+
 ## Windows 에서 Jekyll
 - Windows 가 공식적으로 지원되는 플랫폼은 아니지만, 몇 가지만 손보면 Jekyll 을 실행할 수 있습니다. 이 페이지의 목적은 Windows 사용자에 의해서 발굴된 정보들을 수집하는 것입니다.
 
@@ -37,15 +38,15 @@ tags: [blog, github, jekyll, windows]
 
 - 다음으로, DevKit를 초기화하고 루비 설치에 바인딩해야합니다. 좋아하는 명령 줄 도구를 열고으로 DevKit 압축을 푼 폴더로 이동합니다.
 
-	``cd C:\RubyDevKit``
+	`cd C:\RubyDevKit`
 
 - 루비 설치시 자동 감지하고 다음 단계를 위해 설정 파일에 추가.
 
-	``ruby dk.rb init``
+	`ruby dk.rb init`
 
 - 루비 설치에 바인딩, DevKit를 설치합니다.
 
-	``ruby dk.rb install``
+	`ruby dk.rb install`
 
 ### 개요
 - 좋아요! 모두 잘 된 경우에, 당신은 지금 당신의 컴퓨터에서 루비가 설치되었고, 루비 개발 키트를 사용하여 모든 기능을 실행 파일을 구축 할 수 있습니다. 루비는 소위 설치하는 방법이 포함되어 gem 명령 줄에서 사용할 수있는 패키지관리 - 소프트웨어입니다. 지킬도 그중 하나입니다! 성공적으로 설치하는 방법을 알아 보려면 아래 버튼을 클릭합니다.
