@@ -8,7 +8,7 @@
 <div id="disqus_loader">
 <button class="show-comments" onclick='
   jQuery.ajaxSetup({cache:true});
-  jQuery.getScript("http://kalkingithub.disqus.com/embed.js");
+  jQuery.getScript("http://hadesleesgithubblog.disqus.com/embed.js");
   jQuery.ajaxSetup({cache:false});
   jQuery("#disqus_loader").remove();
 '>
