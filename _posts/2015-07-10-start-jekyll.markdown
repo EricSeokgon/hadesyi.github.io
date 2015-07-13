@@ -50,3 +50,90 @@ tags: [blog, github, jekyll]
 
 ### 개요
 - 좋아요! 모두 잘 된 경우에, 당신은 지금 당신의 컴퓨터에서 루비가 설치되었고, 루비 개발 키트를 사용하여 모든 기능을 실행 파일을 구축 할 수 있습니다. 루비는 소위 설치하는 방법이 포함되어 gem 명령 줄에서 사용할 수있는 패키지관리 - 소프트웨어입니다. 지킬도 그중 하나입니다! 성공적으로 설치하는 방법을 알아 보려면 아래 버튼을 클릭합니다.
+
+# jekyll gem 설치
+## 설치
+- jekyll 자체는 설치가 쉬운 소프트웨어 패키지입니다. ruby gem형태로 제공됩니다. jekyll과 모든 기본 종속성을 설치하려면 command창을 열어서 다음 명령어를 입력 합니다.
+
+	`gem jekyll install`
+
+- 설치하는대 종속수에 따라 수분이 걸립니다.
+
+# Syntax Highlighter 설치
+## 개요 
+- 기본적으로 jekyll python기반의 Syntax Highlighter입니다. pygments.rb도 함께 제공됩니다. Windows에서 사용하려면 python과 몇가지 추가 도구를 설치해야 합니다.
+
+### Rouge 설치
+- 커맨드창을 열어서 다음 명령어를 입력 합니다.
+
+	`gem rouge install`
+- 설치가 끝나면 ==_config.yml== 에  rouge를 설정 합니다.
+	`highlighter: rouge`
+
+- rouge 설치 완료
+
+
+# Pygments 설치
+- Windows에서 Pygments를 사용하려면 python, PIP, pygmrnts.rb를 설치 해야합니다.
+
+## 파이선 설치
+- 주의 python 설치 버전은 v2.7.10입니다. python v3.x 버전에서는 작동이 안됩니다.
+- 아래 버튼을 클릭하고, 시스템의 아키텍처 (32 비트 / 64bit를)과 일치 V2.7 설치 프로그램을 다운로드합니다
+    **[windows용 파이썬 v2.7.10 다운로드](http://rubyinstaller.org/downloads/)**
+![](http://jekyll-windows.juthilo.com/public/img/python-path.png)
+- 다운로드 한 파일을 실행하고 설치의 단계를 통해 이동합니다. Add python.exe to Path에서 옆에 상자를 클릭 "Entire feature will be installed on local hard drive."을 선택하고 설치합니다.
+
+## PIP 설치
+- PIP는 ruby gem과 비슷한 python 패키지를 설치하고 관리하기위한 도구입니다.당신은 Pygments, pygments.rb이 코드를 사용하려면 파이썬 패키지를 설치해야합니다. 먼저, 아래 버튼을 클릭하고 다운로드 get-pip.py 해당 사이트에있는 링크를 통해.
+	**[windows용 PIP 다운로드](http://rubyinstaller.org/downloads/)**
+- get-pip.py 파일을 다른이름 저장으로 c:\pip에 저장합니다. 그런 다음 저장 폴더로 이동 합니다. 커맨드 창에서 다음 명령어를 입력 합니다.
+
+	`cd c:\pip`
+
+- 그런 다음 필요한 모든 구성 요소를 설치하려면 다음 명령어를 입력 합니ㅏㄷ.
+	`python get-pip.py`
+
+## Pygments의 python기반 설치
+- ptgments를 설치하려면 커맨드창에서 다음 명령어를 입력합니다.
+	`python -m pip install pygments`
+
+## WDM의 gem 설치
+- Windows의 경우이 jekyll기능을 사용하려면 하나더 gem으로 설치해야합니다. 간단히 명령 줄에서 다음 명령을 실행합니다.
+    `gem install wdm`
+
+### 개요
+- 휴~ 이제 Windows에서 jekill을 실행하는데 필요한 모든 기능을 설치를 했습니다.이제 jekyll을 실행해서 잘 작동이 되는지만 확인 하면 됩니다.
+
+# 오류없이 jekyll 실행
+## BOM을 허용하지 않습니다.
+- 이 경우 BOM에 UTF-8 인코딩된 파일의 헤더 문자가 없는지 확인 합니다.
+
+## 인코딩 설정 옵션
+- jekyll v1.3.0 부터 인코딩을 지정 할수 있습니다. ==_config.yml==에 다음과 같이 추가해 줍니다.
+
+`encoding: utf-8`
+## 하위 폴더 사용
+- jekyll 
+```
+C:\Users\You>jekyll serve
+Configuration file: C:\Users\You\_config.yml
+            Source: C:\Users\You
+       Destination: C:\Users\You\_site
+      Generating...
+jekyll 2.4.0 | Error: Permission denied - .
+```
+
+## 마무리
+```
+jekyll build
+jekyll build --watch
+jekyll build -w
+jekyll serve
+jekyll serve --watch
+jekyll serve -w
+```
+
+- 축하합니다. 성공적으로 windows에서 jekyll울 설치 했습니다.
+
+- jekyll를 사용할때 도움이 필요한 경우 
+[jekyll 번역 사이트](http://jekyllrb-ko.github.io/)
