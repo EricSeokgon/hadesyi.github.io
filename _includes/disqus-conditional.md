@@ -42,7 +42,7 @@ $(document).ready(function () {
 }
 else
 {
-var disqus_shortname = 'kalkingithub'; // required: replace example with your forum shortname
+var disqus_shortname = 'hadesleesgithubblog'; // required: replace example with your forum shortname
 
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
