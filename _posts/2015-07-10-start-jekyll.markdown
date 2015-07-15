@@ -10,6 +10,7 @@ tags: [blog, windows, jekyll]
 <!-- <div id="toc"><p class="toc_title">목차</p></div> -->
 * TOC
 {:toc}
+
 ## 소개
 - Jekyll 은 아주 심플하고 블로그 지향적인 정적 사이트 생성기입니다.  Mac OSX 또는 Linux에서는 설치하는것이 매우 쉽습니다. 하지만 Windows에서 설치하려면 몇가지 추가 요소가 있는데 여기서 도와 줄겁니다.
 	
