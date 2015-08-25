@@ -13,7 +13,7 @@
     <atom:link href="http://hadesleee.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <link href="http://hadesleee.github.io/" />
     <description><![CDATA[]]></description>
-    <lastBuildDate>Tue, 25 Aug 2015 01:52:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2015 01:59:00 +0000</lastBuildDate>
     <language>en-US</language>
     <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -346,7 +346,7 @@ Ctrl + Tab Switch between tabs and tool window</p>
         
             <category><![CDATA[blog]]></category>
         
-            <category><![CDATA[intellij]]></category>
+            <category><![CDATA[windows]]></category>
         
             <category><![CDATA[jekyll]]></category>
         

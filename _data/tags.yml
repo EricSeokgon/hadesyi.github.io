@@ -24,7 +24,7 @@
 
 - slug: jekyll
   name: Jekyll
-  
+
 - slug: open-source
   name: Open Source
 
@@ -34,5 +34,5 @@
 - slug: windows
   name: 윈도우
 
-  slug: intellij
+- slug: intellij
   name: 인텔리J
