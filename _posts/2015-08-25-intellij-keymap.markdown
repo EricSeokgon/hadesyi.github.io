@@ -4,7 +4,7 @@ title: "IntelliJ 단축키"
 description: "IntelliJ 단축키"
 date: 2015-8-25
 category: blog
-tags: [intellij, blog]
+tags: [intellij, keymap]
 ---
 
 <!-- <div id="toc"><p class="toc_title">목차</p></div> -->

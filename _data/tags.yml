@@ -36,3 +36,6 @@
 
 - slug: intellij
   name: 인텔리J
+
+- slug: keymap
+  name: 단축키
