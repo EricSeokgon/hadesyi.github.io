@@ -13,7 +13,7 @@
     <atom:link href="http://hadesleee.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <link href="http://hadesleee.github.io/" />
     <description><![CDATA[]]></description>
-    <lastBuildDate>Wed, 26 Aug 2015 01:21:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2015 01:24:26 +0000</lastBuildDate>
     <language>en-US</language>
     <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -606,17 +606,52 @@
 
 <h2 id="live-templates">Live Templates</h2>
 
-<p>|단축키|설명|
-|—–|—-|
-|Ctrl + Alt + J |Surround with Live Template
-|Ctrl + J |Insert Live Template
-iter Iteration according to Java SDK 1.5 style
-inst Check object type with instanceof and downcast it
-itco Iterate elements of java.util.Collection
-itit Iterate elements of java.util.Iterator
-itli Iterate elements of java.util.List
-psf public static final
-thr throw new</p>
+<table>
+  <thead>
+    <tr>
+      <th>단축키</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ctrl + Alt + J</td>
+      <td>Surround with Live Template</td>
+    </tr>
+    <tr>
+      <td>Ctrl + J</td>
+      <td>Insert Live Template</td>
+    </tr>
+    <tr>
+      <td>iter</td>
+      <td>Iteration according to Java SDK 1.5 style</td>
+    </tr>
+    <tr>
+      <td>inst</td>
+      <td>Check object type with instanceof and downcast it</td>
+    </tr>
+    <tr>
+      <td>itco</td>
+      <td>Iterate elements of java.util.Collection</td>
+    </tr>
+    <tr>
+      <td>itit</td>
+      <td>Iterate elements of java.util.Iterator</td>
+    </tr>
+    <tr>
+      <td>itli</td>
+      <td>Iterate elements of java.util.List</td>
+    </tr>
+    <tr>
+      <td>psf</td>
+      <td>public static final</td>
+    </tr>
+    <tr>
+      <td>thr</td>
+      <td>throw new</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="general">General</h2>
 

@@ -155,9 +155,7 @@ tags: [intellij, keymap]
 |Ctrl + Alt + F |Extract Field
 |Ctrl + Alt + C |Extract Constant
 |Ctrl + Alt + P |Extract Parameter
- 
- 
- 
+
 ##VCS/Local History
 
 |단축키|설명|
@@ -174,14 +172,14 @@ tags: [intellij, keymap]
 |-----|----|
 |Ctrl + Alt + J |Surround with Live Template
 |Ctrl + J |Insert Live Template
-iter Iteration according to Java SDK 1.5 style
-inst Check object type with instanceof and downcast it
-itco Iterate elements of java.util.Collection
-itit Iterate elements of java.util.Iterator
-itli Iterate elements of java.util.List
-psf public static final
-thr throw new
- 
+|iter |Iteration according to Java SDK 1.5 style
+|inst |Check object type with instanceof and downcast it
+|itco |Iterate elements of java.util.Collection
+|itit |Iterate elements of java.util.Iterator
+|itli |Iterate elements of java.util.List
+|psf |public static final
+|thr |throw new
+
 
 ##General
 
