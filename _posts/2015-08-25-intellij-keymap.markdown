@@ -14,6 +14,7 @@ tags: [intellij, keymap]
 # 윈도우즈 Intellij 단축키
 
 ##Editing
+
 |단축키|설명|
 |-----|----|
 |Ctrl + Space  |Basic code completion (the name of any class,method or variable)|
@@ -57,6 +58,7 @@ tags: [intellij, keymap]
 |Ctrl + F4 |Close active editor tab
 
 ## Double Shift Search everywhere
+
 |단축키|설명|
 |-----|----|
 |Ctrl + F |Find
@@ -69,6 +71,7 @@ tags: [intellij, keymap]
 |Ctrl + Shift + M |Replace structurally (Ultimate Edition only)
 
 ## Usage Search
+
 |단축키|설명|
 |-----|----|
 |Alt + F7 / Ctrl + F7 Find |usages / Find usages in file
@@ -76,6 +79,7 @@ tags: [intellij, keymap]
 |Ctrl + Alt + F7 |Show usages
 
 ## Compile and Run
+
 |단축키|설명|
 |-----|----|
 |Ctrl + F9 |Make project (compile modifed and dependent)
@@ -87,6 +91,7 @@ tags: [intellij, keymap]
 |Ctrl + Shift + F10 |Run context configuration from editor
 
 ## Debugging
+
 |단축키|설명|
 |-----|----|
 |F8 |Step over
@@ -100,6 +105,7 @@ tags: [intellij, keymap]
 |Ctrl + Shift + F8 |View breakpoints
 
 ##Navigation
+
 |단축키|설명|
 |-----|----|
 |Ctrl + N |Go to class
@@ -135,6 +141,7 @@ tags: [intellij, keymap]
 |Shift + F11 |Show bookmarks
 
 ##Refactoring
+
 |단축키|설명|
 |-----|----|
 |F5 |Copy
@@ -152,6 +159,7 @@ tags: [intellij, keymap]
  
  
 ##VCS/Local History
+
 |단축키|설명|
 |-----|----|
 |Ctrl + K |Commit project to VCS
@@ -161,6 +169,7 @@ tags: [intellij, keymap]
  
  
 ##Live Templates
+
 |단축키|설명|
 |-----|----|
 |Ctrl + Alt + J |Surround with Live Template
@@ -175,6 +184,7 @@ thr throw new
  
 
 ##General
+
 |단축키|설명|
 |-----|----|
 |Alt + #[0-9] |Open corresponding tool window
