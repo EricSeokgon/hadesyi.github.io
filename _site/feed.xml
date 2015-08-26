@@ -13,7 +13,7 @@
     <atom:link href="http://hadesleee.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <link href="http://hadesleee.github.io/" />
     <description><![CDATA[]]></description>
-    <lastBuildDate>Wed, 26 Aug 2015 01:14:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2015 01:18:04 +0000</lastBuildDate>
     <language>en-US</language>
     <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -33,11 +33,12 @@
         
             <guid>http://hadesleee.github.io/2015/08/25/intellij-keymap/</guid>
             <description>
-                <![CDATA[Double Shift Search everywhere Usage Search Compile and Run Debugging Navigation Refactoring VCS/Local History Live Templates General 윈도우즈 Intellij 단축키 ##Editing 단축키 설명 Ctrl + Space Basic code completion (the name of any class,method or variable) Ctrl + Shift + Space Smart code completion (filters the list of methodsand variables...]]>
+                <![CDATA[Editing Double Shift Search everywhere Usage Search Compile and Run Debugging Navigation Refactoring VCS/Local History Live Templates General 윈도우즈 Intellij 단축키 Editing |단축키|설명| |—–|—-| |Ctrl + Space |Basic code completion (the name of any class,method or variable)| |Ctrl + Shift + Space |Smart code completion (filters the list of methodsand...]]>
             </description>
             <content:encoded>
                 <![CDATA[<!-- <div id="toc"><p class="toc_title">목차</p></div> -->
 <ul id="markdown-toc">
+  <li><a href="#editing" id="markdown-toc-editing">Editing</a></li>
   <li><a href="#double-shift-search-everywhere" id="markdown-toc-double-shift-search-everywhere">Double Shift Search everywhere</a></li>
   <li><a href="#usage-search" id="markdown-toc-usage-search">Usage Search</a></li>
   <li><a href="#compile-and-run" id="markdown-toc-compile-and-run">Compile and Run</a></li>
@@ -50,174 +51,49 @@
 </ul>
 
 <h1 id="intellij-">윈도우즈 Intellij 단축키</h1>
-<p>##Editing</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>단축키</th>
-      <th>설명</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ctrl + Space</td>
-      <td>Basic code completion (the name of any class,method or variable)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + Space</td>
-      <td>Smart code completion (filters the list of methodsand variables by expected type)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + Enter</td>
-      <td>Complete statement</td>
-    </tr>
-    <tr>
-      <td>Ctrl + P</td>
-      <td>함수호출시 인수 정보 확인 (within method call arguments)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Q</td>
-      <td>코드에 대한 문서창 팝업</td>
-    </tr>
-    <tr>
-      <td>Shift + F1</td>
-      <td>코드에 대한 문서 인터넷 브라우저로 팝업</td>
-    </tr>
-    <tr>
-      <td>Ctrl + mouse</td>
-      <td>코드를 링크처럼 타고 들어감</td>
-    </tr>
-    <tr>
-      <td>Ctrl + F1</td>
-      <td>Show descriptions of error or warning at caret</td>
-    </tr>
-    <tr>
-      <td>Alt + Insert</td>
-      <td>코드 생성 (Getters, Setters, Constructors,hashCode/equals, toString)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + O</td>
-      <td>메서드 오버라이드 구현</td>
-    </tr>
-    <tr>
-      <td>Ctrl + I</td>
-      <td>인터페이스 메서드 구현</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Alt + T</td>
-      <td>다음으로 코드 감싸기… (if..else, try..catch, for,synchronized, etc.)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + /</td>
-      <td>줄 단위 주석 토글</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + /</td>
-      <td>블럭 단위 주석 토글</td>
-    </tr>
-    <tr>
-      <td>Ctrl + W</td>
-      <td>가장 안쪽의 괄호부터 선택(점점 확장 된다.)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + W</td>
-      <td>Decrease current selection to previous state</td>
-    </tr>
-    <tr>
-      <td>Alt + Q</td>
-      <td>Context info</td>
-    </tr>
-    <tr>
-      <td>Alt + Enter</td>
-      <td>Show intention actions and quick-fixes</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Alt + L</td>
-      <td>파일 단위 재정렬 (이클립스의 ctrl + shift + f)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Alt + O</td>
-      <td>import 문 최적화</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Alt + I</td>
-      <td>줄단위 재정렬</td>
-    </tr>
-    <tr>
-      <td>Tab / Shift + Tab</td>
-      <td>들여쓰기/내어쓰기</td>
-    </tr>
-    <tr>
-      <td>Ctrl + X or Shift + Delete</td>
-      <td>잘라내기 (블럭 선택이 안되어 있으면 라인을 잘라냄)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + C or Ctrl + Insert</td>
-      <td>복사하기(블럭 선택이 안되어 있으면 라인을 복사함)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + V or Shift + Insert</td>
-      <td>붙여넣기</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + V</td>
-      <td>복사하기 (목록에서 선택하여)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + D</td>
-      <td>선택된 블럭을 복제</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Y</td>
-      <td>캐럿을 있는 곳의 라인 삭제</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + J</td>
-      <td>스마트하게 코드를 한 줄로 합친다.</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Enter</td>
-      <td>스마트하게 코드를 여러줄로 나눈다.</td>
-    </tr>
-    <tr>
-      <td>Shift + Enter</td>
-      <td>커서가 어디에 있건 다음 라인을 생성하고 첫줄로 이도</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + U</td>
-      <td>커서가 있는 곳이나 블럭이 있는 곳을 대문자 및 소문자로 치화</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + ] / [</td>
-      <td>가장 가까운 괄호 시작/종료로 이동</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Delete</td>
-      <td>단어 삭제 (커서 시작부터)</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Backspace</td>
-      <td>Delete to word start</td>
-    </tr>
-    <tr>
-      <td>Ctrl + NumPad+/- Expand/</td>
-      <td>collapse code block</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + NumPad+</td>
-      <td>Expand all</td>
-    </tr>
-    <tr>
-      <td>Ctrl + Shift + NumPad-</td>
-      <td>Collapse all</td>
-    </tr>
-    <tr>
-      <td>Ctrl + F4</td>
-      <td>Close active editor tab</td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="editing">Editing</h2>
+<p>|단축키|설명|
+|—–|—-|
+|Ctrl + Space  |Basic code completion (the name of any class,method or variable)|
+|Ctrl + Shift + Space |Smart code completion (filters the list of methodsand variables by expected type)
+|Ctrl + Shift + Enter |Complete statement
+|Ctrl + P | 함수호출시 인수 정보 확인 (within method call arguments)
+|Ctrl + Q  |코드에 대한 문서창 팝업
+|Shift + F1 |코드에 대한 문서 인터넷 브라우저로 팝업 
+|Ctrl + mouse|  코드를 링크처럼 타고 들어감
+|Ctrl + F1 |Show descriptions of error or warning at caret
+|Alt + Insert | 코드 생성 (Getters, Setters, Constructors,hashCode/equals, toString)
+|Ctrl + O | 메서드 오버라이드 구현
+|Ctrl + I  |  인터페이스 메서드 구현
+|Ctrl + Alt + T | 다음으로 코드 감싸기… (if..else, try..catch, for,synchronized, etc.)
+|Ctrl + / |줄 단위 주석 토글
+|Ctrl + Shift + /  |블럭 단위 주석 토글
+|Ctrl + W |가장 안쪽의 괄호부터 선택(점점 확장 된다.)
+|Ctrl + Shift + W |Decrease current selection to previous state
+|Alt + Q |Context info
+|Alt + Enter |Show intention actions and quick-fixes
+|Ctrl + Alt + L | 파일 단위 재정렬 (이클립스의 ctrl + shift + f) 
+|Ctrl + Alt + O| import 문 최적화
+|Ctrl + Alt + I | 줄단위 재정렬
+|Tab / Shift + Tab|  들여쓰기/내어쓰기
+|Ctrl + X or Shift + Delete |잘라내기 (블럭 선택이 안되어 있으면 라인을 잘라냄)
+|Ctrl + C or Ctrl + Insert |복사하기(블럭 선택이 안되어 있으면 라인을 복사함)
+|Ctrl + V or Shift + Insert |붙여넣기
+|Ctrl + Shift + V| 복사하기 (목록에서 선택하여)
+|Ctrl + D |선택된 블럭을 복제
+|Ctrl + Y |캐럿을 있는 곳의 라인 삭제
+|Ctrl + Shift + J |스마트하게 코드를 한 줄로 합친다.
+|Ctrl + Enter |스마트하게 코드를 여러줄로 나눈다.
+|Shift + Enter |커서가 어디에 있건 다음 라인을 생성하고 첫줄로 이도 
+|Ctrl + Shift + U |커서가 있는 곳이나 블럭이 있는 곳을 대문자 및 소문자로 치화
+|Ctrl + Shift + ] / [  |가장 가까운 괄호 시작/종료로 이동
+|Ctrl + Delete |단어 삭제 (커서 시작부터)
+|Ctrl + Backspace |Delete to word start
+|Ctrl + NumPad+/- Expand/ |collapse code block
+|Ctrl + Shift + NumPad+ |Expand all
+|Ctrl + Shift + NumPad- |Collapse all
+|Ctrl + F4 |Close active editor tab</p>
 
 <h2 id="double-shift-search-everywhere">Double Shift Search everywhere</h2>
 <p>|단축키|설명|

@@ -12,8 +12,8 @@ tags: [intellij, keymap]
 {:toc}
 
 # 윈도우즈 Intellij 단축키
-##Editing
 
+##Editing
 |단축키|설명|
 |-----|----|
 |Ctrl + Space  |Basic code completion (the name of any class,method or variable)|
@@ -55,8 +55,7 @@ tags: [intellij, keymap]
 |Ctrl + Shift + NumPad+ |Expand all
 |Ctrl + Shift + NumPad- |Collapse all
 |Ctrl + F4 |Close active editor tab
- 
- 
+
 ## Double Shift Search everywhere
 |단축키|설명|
 |-----|----|
@@ -68,17 +67,14 @@ tags: [intellij, keymap]
 |Ctrl + Shift + R |Replace in path
 |Ctrl + Shift + S |Search structurally (Ultimate Edition only)
 |Ctrl + Shift + M |Replace structurally (Ultimate Edition only)
- 
- 
- 
+
 ## Usage Search
 |단축키|설명|
 |-----|----|
 |Alt + F7 / Ctrl + F7 Find |usages / Find usages in file
 |Ctrl + Shift + F7 |Highlight usages in file
 |Ctrl + Alt + F7 |Show usages
- 
- 
+
 ## Compile and Run
 |단축키|설명|
 |-----|----|
@@ -89,7 +85,7 @@ tags: [intellij, keymap]
 |Shift + F10 |Run
 |Shift + F9 |Debug
 |Ctrl + Shift + F10 |Run context configuration from editor
- 
+
 ## Debugging
 |단축키|설명|
 |-----|----|
@@ -102,8 +98,7 @@ tags: [intellij, keymap]
 |F9 |Resume program
 |Ctrl + F8 |Toggle breakpoint
 |Ctrl + Shift + F8 |View breakpoints
- 
- 
+
 ##Navigation
 |단축키|설명|
 |-----|----|
@@ -138,9 +133,7 @@ tags: [intellij, keymap]
 |Ctrl + F11 |Toggle bookmark with mnemonic
 |Ctrl + #[0-9] |Go to numbered bookmark
 |Shift + F11 |Show bookmarks
- 
- 
- 
+
 ##Refactoring
 |단축키|설명|
 |-----|----|
