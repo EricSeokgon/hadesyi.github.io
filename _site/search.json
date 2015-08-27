@@ -1,9 +1,9 @@
 [
   
     {
-  "title"    : "Eclipse Keymap",
-  "category" : "",
-  "tags"     : [ null],
+  "title"    : "Eclipse 단축키",
+  "category" : "blog",
+  "tags"     : ["eclipse","keymap", null],
   "href"     : "/2015/08/27/eclipse-keymap/",
   "date"     : {
     "day"   : "27",

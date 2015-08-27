@@ -1,8 +1,8 @@
 ---
-layout| post
-title| "Eclipse 단축키"
-description| "Eclipse 단축키"
-date| 2015-8-27
+layout: post
+title: "Eclipse 단축키"
+description: "Eclipse 단축키"
+date: 2015-8-27
 category: blog
 tags: [eclipse, keymap]
 ---
