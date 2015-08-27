@@ -1,8 +1,8 @@
 ---
-layout| post
-title| "Eclipse 단축키"
-description| "Eclipse 단축키"
-date| 2015-8-27
+layout: post
+title: "Eclipse 단축키"
+description: "Eclipse 단축키"
+date: 2015-8-27
 category: blog
 tags: [eclipse, keymap]
 ---
@@ -153,6 +153,7 @@ tags: [eclipse, keymap]
 
 ## 에디터 변환
 1. 에디터가 여러 파일을 열어서 작업중일때 Ctrl + F6 키를 누르면 여러파일명이 나오고 F6키를 계속 누르면 아래로
+
 |단축키|설명|
 |-----|----|
 |Ctrl + Shift + F6| 키를 누르면 위로 커서가 움직인다.
