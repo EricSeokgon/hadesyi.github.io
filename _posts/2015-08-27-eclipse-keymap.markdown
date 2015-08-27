@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "Eclipse 단축키"
-description: "Eclipse 단축키"
-date: 2015-8-27
+layout| post
+title| "Eclipse 단축키"
+description| "Eclipse 단축키"
+date| 2015-8-27
 category: blog
 tags: [eclipse, keymap]
 ---
@@ -114,25 +114,25 @@ tags: [eclipse, keymap]
 | F2 | 컴파일 에러의 빨간줄에 커서를 갖져다가 이 키를 누르면 에러의 원인에 대한 힌트를 제공한다.
 | Ctrl + l | 원하는 소스 라인으로 이동 로컬 히스토리 기능을 이용하면 이전에 편집했던 내용으로 변환이 가능하다.
 | Ctrl + Shift + Space | 메소드의 가로안에 커서를 놓고 이 키를 누르면 파라미터 타입 힌트를 볼 수 있다.
-| 한줄 삭제 CTRL + D
-| 파일 닫기 | CTRL+W
-| 들여쓰기 자동 수정. (3.0 NEW) | CTRL+I 
+| CTRL + D|한줄 삭제 
+| CTRL+W|파일 닫기 | 
+| CTRL+I |들여쓰기 자동 수정. (3.0 NEW) | 
 | 블록 주석(/*..*/) 추가.(3.0 NEW)| CTRL+SHIFT+/
-| Ctrl + / 해주면 여러줄이 한꺼번에 주석처리됨. 주석 해제하려면 반대로 하면 됨.
-|위(아래)줄과 바꾸기 | ALT+UP(DOWN)
-| 블록 선택하기.  | ALT+SHIFT+방향키
-| 메소드의 파라메터 목록 보기. | CTRL+SHIFT+SPACE
-| 자동으로 import 하기 | CTRL+SHIFT+O
-| 열린 파일 모두 닫기 | CTRL + SHIFT + F4
-| 블록 주석 제거 | CTRL+SHIFT+
-| 전체화면 토글 | CTRL+M
-| 한줄(블럭) 복사 | Ctrl + Alt + 위(아래)
-| 다음 annotation(에러, 워닝, 북마크 가능)으로 점프 | Ctrl + , or .
-| 퀵 픽스 | Ctrl + 1  
-| 메소드 정의부로 이동 | F3
-| 하이어라키 팦업 창 띄우기(인터페이스 구현 클래스간 이동시 편리) | Ctrl + T 
-| 메소드나 필드 이동하기 CTRL + O 
-| ULTRAEDIT나 EDITPLUS 의 CTRL+TAB 과 같은 기능. | CTRL+F6 
+| Ctrl + / |해주면 여러줄이 한꺼번에 주석처리됨. 주석 해제하려면 반대로 하면 됨.
+|ALT+UP(DOWN)|위(아래)줄과 바꾸기 | 
+| ALT+SHIFT+방향키|블록 선택하기.  | 
+| CTRL+SHIFT+SPACE|메소드의 파라메터 목록 보기. | 
+| CTRL+SHIFT+O|자동으로 import 하기 | 
+|  CTRL + SHIFT + F4|열린 파일 모두 닫기 |
+| CTRL+SHIFT+|블록 주석 제거 | 
+| CTRL+M|전체화면 토글 | 
+| 한Ctrl + Alt + 위(아래)|줄(블럭) 복사 | 
+|  Ctrl + , or .|다음 annotation(에러, 워닝, 북마크 가능)으로 점프 |
+| Ctrl + 1  |퀵 픽스 | 
+| F3|메소드 정의부로 이동 | 
+| Ctrl + T |하이어라키 팦업 창 띄우기(인터페이스 구현 클래스간 이동시 편리) | 
+| CTRL + O |메소드나 필드 이동하기 
+| CTRL+F6 | ULTRAEDIT나 EDITPLUS 의 CTRL+TAB 과 같은 기능. | 
  
 ## 템플릿 사용
 1. sysout 입력한 후 Ctrl + Space 하면 System.out.println(); 으로 바뀐다.
@@ -153,7 +153,9 @@ tags: [eclipse, keymap]
 
 ## 에디터 변환
 1. 에디터가 여러 파일을 열어서 작업중일때 Ctrl + F6 키를 누르면 여러파일명이 나오고 F6키를 계속 누르면 아래로
-2. Ctrl + Shift + F6 키를 누르면 위로 커서가 움직인다.
-3. Ctrl + F7 | 뷰간 전환
-4. Ctrl + F8 | 퍼스펙티브간 전환
-5. 5. F12 | 에디터로 포커스 위치
+|단축키|설명|
+|-----|----|
+|Ctrl + Shift + F6| 키를 누르면 위로 커서가 움직인다.
+|Ctrl + F7 | 뷰간 전환
+|Ctrl + F8 | 퍼스펙티브간 전환
+|F12 | 에디터로 포커스 위치
