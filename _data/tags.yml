@@ -39,3 +39,6 @@
 
 - slug: keymap
   name: 단축키
+
+- slug: eclipse
+  name: 이클립스
